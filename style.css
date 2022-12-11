@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,500;1,700&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #E9EDEE;
+}
+.head{
+    width: 100%;
+    margin-top: 20px;
+    background-color:#222F3F;
+    padding: 15px;
+}
+
+.navig{
+    display: flex;
+    padding: 15px;
+    background-color:#364757;
+    color: white;   
+}
+
+.navig a{
+    padding: 5px;
+    text-align: center;
+}
+.titel{
+    
+    color: white;
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #F46600;
+}
+.cov{
+    background-image: url(./assets/bg-image.png);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 150px;
+    padding: 25px;
+    margin-left: 2%;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cover{
+    padding: 35px;
+    text-align: center;
+}
+.cover  a{
+    color: #0E5C72;
+    text-decoration: none;
+    padding: 5px;
+}
+.card{
+    width: 95%;
+    margin-left: 20px;
+    margin-left: 2%;
+    margin-right: 100px;
+    display: inline-block;
+    
+    margin-top: 25px;
+    border: 1px solid rgb(86, 84, 84);
+  
+}
+.foto1{
+    display: inline-block;
+    padding: 45px;
+}
+.foto1 img{
+
+    border-radius: 20px;
+    height: 40vh;
+    box-shadow: 1px 2px 1px 2px grey;
+}
+
+.card p{
+   margin-top: 25px;
+    margin-left: 50px;
+}
+.card p a{
+    color: #195C6F;
+    text-decoration: none;
+    padding: 15px;
+ }
+
+ .footer{
+    width: 100%;
+    background-color:#222F3F;
+    text-align: center;
+    padding: 45px;
+
+ }
+ .hero a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #364759;
+ }
